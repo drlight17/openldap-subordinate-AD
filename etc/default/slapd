@@ -1,0 +1,2 @@
+# to force using slapd.conf file instead of slad.d cn=config directory
+SLAPD_CONF=/etc/ldap/slapd.conf
