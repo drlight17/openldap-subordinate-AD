@@ -1,2 +1,3 @@
 # to force using slapd.conf file instead of slad.d cn=config directory
+# !!! DON'T FORGET TO DELETE /etc/ldap/slapd.d FOLDER TO AVOID STARTUP ERROR!!!
 SLAPD_CONF=/etc/ldap/slapd.conf
