@@ -1,5 +1,5 @@
 # openldap-subordinate-AD
-Initial configuration of OpenLDAP to glue AD DIS as suffix in OpenLDAP DIS
+Initial configuration of OpenLDAP to glue AD DIT as suffix in OpenLDAP DIT
 Using Ubuntu 18.04 TLS
 1) Install OpenLDAP: # apt-get install slapd ldap-utils -y
 2) Enable OpenLDAP on startup: # systemctl enable slapd
