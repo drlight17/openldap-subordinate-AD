@@ -2,3 +2,5 @@
 # !!! DON'T FORGET TO DELETE /etc/ldap/slapd.d FOLDER TO AVOID STARTUP ERROR!!!
 # parameter may be empty, if slapd.d is not exist
 SLAPD_CONF=/etc/ldap/slapd.conf
+# add ssl/tls support
+SLAPD_SERVICES="ldap:/// ldaps:/// ldapi:///"
