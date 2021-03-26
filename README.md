@@ -15,4 +15,5 @@ slappasswd -s password -h {SSHA}
 You could also generate dynamic configuration based on the slapd.conf file, make sure you have created slapd.d directory with write for openldap user rights:
 
 slaptest -f /etc/ldap/slapd.conf -F /etc/ldap/slapd.d
+
 After config generated check /etc/defaults/slapd for proper config file or directory setting
