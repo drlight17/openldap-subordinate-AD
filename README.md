@@ -19,3 +19,5 @@ slaptest -f /etc/ldap/slapd.conf -F /etc/ldap/slapd.d
 After config generated check /etc/defaults/slapd for proper config file or directory setting
 
 See changed core schema in etc/ldap/schema - sn attr is now uncertain!
+
+See changed misc schema in etc/ldap/schema - nismailalias has description attr now!
