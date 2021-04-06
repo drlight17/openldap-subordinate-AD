@@ -25,3 +25,5 @@ See changed misc schema in etc/ldap/schema - nismailalias has description attr n
 For memberof support import ldif: ldapadd -x -D cn=ldap_admin,dc=example,dc=org -w password_of_rootdn -f /etc/ldap/ldif/add_memberof_overlay.ldif
 
 For referral update support: ldapadd -x -D cn=ldap_admin,dc=example,dc=org -w password_of_rootdn -f /etc/ldap/ldif/add_refint_support.ldif
+
+Don't forget that updates of entries with memberof will be for newly created entries.
