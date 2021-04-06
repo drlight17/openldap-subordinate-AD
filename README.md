@@ -21,3 +21,7 @@ After config generated check /etc/defaults/slapd for proper config file or direc
 See changed core schema in etc/ldap/schema - sn attr is now uncertain!
 
 See changed misc schema in etc/ldap/schema - nismailalias has description attr now!
+
+For memberof support import ldif: ldapadd -x -D cn=ldap_admin,dc=example,dc=org -w password_of_rootdn -f /etc/ldap/ldif/add_memberof_overlay.ldif
+
+For referral update support: ldapadd -x -D cn=ldap_admin,dc=example,dc=org -w password_of_rootdn -f /etc/ldap/ldif/add_refint_support.ldif
